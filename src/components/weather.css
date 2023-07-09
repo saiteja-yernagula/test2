@@ -1,0 +1,10 @@
+
+.demo{
+    background: navy;
+    background: linear-gradient(to right, #870000, #190a05);
+    font-size: 20px;
+  
+  color: white;
+  padding:20px;
+  height: 100vh;
+  }

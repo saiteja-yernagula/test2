@@ -19,10 +19,12 @@ function Folio (){
         <ul>
        
             
-         <Link className='b6' to='/calculator'><li className='col-sm-3 m-3 p-3 btn btn-outline-dark'>Calculator app</li></Link>
+         <Link className='b1' to='/calculator'><li className='col-sm-3 m-3 p-3 btn btn-outline-dark'>Calculator app</li></Link>
+         <Link className='b4' to='/recipe'><li className='col-sm-3 m-3 p-3 btn btn-outline-dark'> foodie app</li></Link>
+
+         <Link className='b5' to='/weather'><li className='col-sm-3 m-3 p-3 btn btn-outline-dark'>weather</li></Link>
+
          <Link className='b6' to='/todo'><li className='col-sm-3 m-3 p-3 btn btn-outline-dark'>Todo app</li></Link>
-
-
          <Link className='b7' to='/counter'><li className='col-sm-3 m-3 p-3 btn btn-outline-dark'>Counterr app</li></Link>
 
         </ul>

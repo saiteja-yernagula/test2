@@ -5,6 +5,8 @@ import Folio from './components/Folio';
 import Counter from './components/Counter';
 import Calculator from './components/Calculaor';
 import Todo from './components/Todo';
+import Weather from './components/Weather';
+import Recipe from './components/Recipe';
 
 
 
@@ -21,6 +23,10 @@ function App() {
             <Route path='/counter' element={<Counter/>}/>
             <Route path='/calculator' element={<Calculator/>}/>
             <Route path='/todo' element={<Todo/>}/>
+            <Route path='/weather' element={<Weather/>}/>
+            <Route path='/recipe' element={<Recipe/>}/>
+
+
 
 
 
