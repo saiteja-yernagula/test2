@@ -1,0 +1,12 @@
+.list-group-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo{
+    height: 105vh;
+    padding-bottom:900px;
+    background: linear-gradient(90deg, rgba(119,117,138,1) 0%, rgba(16,72,236,1) 49%, rgba(0,212,255,1) 100%)
+    
+
+}

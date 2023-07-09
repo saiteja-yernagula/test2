@@ -4,6 +4,7 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Folio from './components/Folio';
 import Counter from './components/Counter';
 import Calculator from './components/Calculaor';
+import Todo from './components/Todo';
 
 
 
@@ -19,6 +20,8 @@ function App() {
             <Route path='/' element={<Folio/>}/>
             <Route path='/counter' element={<Counter/>}/>
             <Route path='/calculator' element={<Calculator/>}/>
+            <Route path='/todo' element={<Todo/>}/>
+
 
 
            
