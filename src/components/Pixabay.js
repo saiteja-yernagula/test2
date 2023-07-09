@@ -7,7 +7,7 @@ import axios from 'axios';
 
 function Pixabay() {
     let navigate=useNavigate();
-    let [gdata,setGdata]=useState('');
+    let [gdata,setGdata]=useState('web development');
 
 
   return (
