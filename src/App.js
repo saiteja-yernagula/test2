@@ -8,6 +8,7 @@ import Todo from './components/Todo';
 import Weather from './components/Weather';
 import Recipe from './components/Recipe';
 import Pixabay from './components/Pixabay';
+import Search from './components/Search';
 import Crypto from './components/Crypto';
 
 
@@ -27,8 +28,11 @@ function App() {
             <Route path='/todo' element={<Todo/>}/>
             <Route path='/weather' element={<Weather/>}/>
             <Route path='/recipe' element={<Recipe/>}/>
-            <Route path='/pixabay' element={<Pixabay/>}/>
+            <Route path='/gallery' element={<Pixabay/>}/>
+            <Route path='/gallery/search/:gdata' element={<Search/>}/>
             <Route path='/crypto' element={<Crypto/>}/>
+
+            
 
 
 
