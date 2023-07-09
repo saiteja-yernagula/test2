@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
      
-          Learn React
+          Learn React is fun
        
     </div>
   );
