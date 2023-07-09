@@ -1,13 +1,31 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
-import './App.css';
+import Folio from './components/Folio';
+import Counter from './components/Counter';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-     
-          Learn React is fun
-       
+    <>
+    
+    <div>
+    <BrowserRouter>
+        
+         <Routes>
+            <Route path='/' element={<Folio/>}/>
+            <Route path='/counter' element={<Counter/>}/>
+
+           
+
+
+         </Routes>
+    </BrowserRouter>
+
     </div>
+    </>
   );
 }
 

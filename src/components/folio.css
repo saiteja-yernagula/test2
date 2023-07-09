@@ -1,0 +1,104 @@
+.folio{
+    
+    background: url("https://www.imageshine.in/uploads/gallery/White-desktop-background,-minimal-abstract-design-vector.jpg");
+    background-size: cover;
+    height:100vh;
+    
+}
+.folio h1{
+   font-style: italic;
+   padding-top: 10px;
+}
+
+.folio ul{
+    
+}
+
+.folio ul li{
+    font-weight: 900;
+    border-radius: 20px;
+    font-size: larger;
+    font-family: cursive;
+    box-shadow: 1px 1px 4px black;
+}
+
+
+
+ .b1 li:hover{
+    background: linear-gradient(90deg, rgb(80, 46, 82) 0%, rgba(245,166,251,1) 49%, rgba(248,94,255,1) 100%);
+  
+  }
+
+ 
+  .b2 li:hover{
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(3, 78, 9) 49%, rgb(9, 161, 103) 100%);
+  
+  }
+
+  .b3 li:hover{
+    background: linear-gradient(90deg, rgb(72, 42, 49) 0%, rgb(87, 13, 25) 49%, rgb(136, 10, 10) 100%);
+  }
+
+  .b4 li:hover{
+    background: linear-gradient(90deg, rgb(49, 50, 29) 0%, rgb(170, 195, 83) 49%, rgb(243, 251, 16) 100%);
+  
+  }
+
+  .b5 li:hover{
+    background: linear-gradient(90deg, rgba(231,230,244,1) 0%, rgba(245,166,251,1) 49%, rgba(248,94,255,1) 100%);
+    background: linear-gradient(to right, #870000, #190a05);
+  
+  }
+
+  .b6 li:hover{
+    background: linear-gradient(90deg, rgba(231,230,244,1) 0%, rgba(245,166,251,1) 49%, rgba(248,94,255,1) 100%);
+    background: linear-gradient(90deg, rgba(119,117,138,1) 0%, rgba(16,72,236,1) 49%, rgba(0,212,255,1) 100%)
+  
+  }
+
+  .b7 li:hover{
+    background: linear-gradient(90deg, rgba(231,230,244,1) 0%, rgba(245,166,251,1) 49%, rgba(248,94,255,1) 100%);
+    background:linear-gradient(90deg,pink,lightgreen);
+    
+  }
+
+
+  .b1 li{
+    color: palevioletred;
+    border-color:palevioletred ;
+
+  }
+
+  .b2 li{
+    color: rgb(26, 99, 1);
+    border-color:rgb(2, 120, 16) ;
+  }
+
+
+  .b3 li{
+    color: rgb(149, 13, 1);
+    border-color:rgb(121, 0, 0) ;
+  }
+
+  .b4 li{
+    color: rgb(149, 129, 1);
+    border-color:rgb(121, 115, 0) ;
+  }
+
+  .b5 li{
+    color: rgb(149, 13, 1);
+    border-color:rgb(121, 0, 0) ;
+  }
+
+
+  .b6 li{
+    color: rgb(1, 87, 149);
+    border-color:rgb(0, 55, 121) ;
+  }
+
+
+  .b7 li{
+    color:rgb(199, 11, 86);
+    border-color:pink ;
+  }
+
