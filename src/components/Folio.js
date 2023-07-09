@@ -19,8 +19,9 @@ function Folio (){
         <ul>
        
             
+         <Link className='b6' to='/calculator'><li className='col-sm-3 m-3 p-3 btn btn-outline-dark'>Calculator app</li></Link>
 
-            <Link className='b7' to='/counter'><li className='col-sm-3 m-3 p-3 btn btn-outline-dark'>Counterr app</li></Link>
+         <Link className='b7' to='/counter'><li className='col-sm-3 m-3 p-3 btn btn-outline-dark'>Counterr app</li></Link>
 
         </ul>
       </center>

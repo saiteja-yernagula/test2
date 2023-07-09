@@ -1,0 +1,66 @@
+.mn-casio{
+    background:conic-gradient(from -90deg at 50% 105 %white,orchid);
+    background: linear-gradient(90deg, rgba(231,230,244,1) 0%, rgba(245,166,251,1) 49%, rgba(248,94,255,1) 100%);
+    overflow:hidden;
+  
+  }
+  
+  
+  .containercalc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:110vh;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .calculator{
+    background: #f2f2f2;
+    padding:10px;
+    height:100vh;
+    width:60vh;
+    
+    box-shadow:1px 0.5px 10px black ;
+  }
+  
+  .calculator button{
+    width:25%;
+    height: 11vh;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 100px;
+    direction: ltr;
+  }
+  
+  .userinput div{
+    margin: 10px;
+  }
+  
+  .userinput{
+    border: none;
+    width: 80%;
+    padding: 20px;
+    text-align: right;
+    background: #f2f2f2;
+    margin: 20px;
+    font-size: 35px;
+  }
+  
+  .calculator .btn1{
+    width: 100%;
+    
+    margin: auto;
+  }
+  
+  button:hover{
+    background-color: rgba(120,128,128 ,0.3);
+  }
+  
+  
+  
+  
+  
+  
+  
