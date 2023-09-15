@@ -32,17 +32,7 @@ function App() {
             <Route path='/gallery/search/:gdata' element={<Search/>}/>
             <Route path='/crypto' element={<Crypto/>}/>
 
-            
-
-
-
-
-
-
-
-           
-
-
+       
          </Routes>
     </BrowserRouter>
 

@@ -10,7 +10,7 @@ const Search=()=>{
 
     let [gresult,setGresult]=useState([])
     
-    useEffect(()=>{imgdata()},[])
+    useEffect(()=>{imgdata()})
 
     async function imgdata(){
         let res=await axios.get(`https://pixabay.com/api/?key=7685538-ea988db1f25ef51f3d2df1490&q=${gdata}&image_type=photo`)

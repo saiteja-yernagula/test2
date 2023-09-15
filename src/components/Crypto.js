@@ -13,7 +13,7 @@ function Crypto () {
     useEffect(()=>{getcrypto()},[])
 
     async function getcrypto(){
-        let res=await axios.get(`https://api.coinstats.app/public/v1/coins?skip=0&limit=20`)
+        let res=await axios.get(`https://api.coinstats.app/public/v1/coins?skip=0&limit=50`)
        
         setCoin(res.data.coins)
         
